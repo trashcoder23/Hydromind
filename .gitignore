@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ML Models (large files)
+*.pkl
+*.onnx
+*.h5
+*.keras
+*.pb
+*.pth
+*.pt
+ml/models/
+ml/lstm_crash_predictor/sensor_data.csv
+ml/lstm_crash_predictor/lstm_model.keras
+ml/lstm_crash_predictor/scaler.pkl
+
+# Backend Functions Models
+backend/functions/*.pkl
+backend/functions/*.onnx
+backend/functions/*.keras
+backend/functions/venv/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+serviceAccountKey.json
+*-serviceAccountKey.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+build/
+.cache/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# OS
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Data files
+data.json
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Credentials (IMPORTANT!)
+*credentials*.json
+*serviceAccount*.json
+*.pem
+*.key
+.env*

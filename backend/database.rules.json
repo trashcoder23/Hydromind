@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "hydromind": {
+      ".read": true,
+      ".write": true,
+      "sensor_data": {
+        ".indexOn": ["timestamp"]
+      },
+      "sensor_history": {
+        ".indexOn": ["timestamp"]
+      },
+      "alerts": {
+        ".indexOn": ["timestamp", "type"]
+      }
+    }
+  }
+}
